@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import { DESTINATIONS, MONTHS, TIER_LABELS, TIER_ICONS, ORIGINS } from "./data/destinations.js";
 import { getTripEstimate, getBudgetMatches } from "./data/api.js";
 
+
 const CAT_COLORS = {
   Flights: "#e8614d",
   Accommodation: "#d4883e",
@@ -62,10 +63,13 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>
-          Unpackie
-        </h1>
-        <p>Calculate. Discover. Travel.</p>
+        <div className="header-content">
+        <img src="/unpackie-icon.svg" alt="Unpackie logo" className="header-logo" />
+          <div>
+            <h1>Unpackie</h1>
+            <p>Calculate. Discover. Travel.</p>
+          </div>
+        </div>
       </header>
 
       <main className="container">
