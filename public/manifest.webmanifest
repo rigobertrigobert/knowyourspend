@@ -1,11 +1,11 @@
 {
-  "name": "KnowYourSpend",
-  "short_name": "KnowYourSpend",
-  "description": "The true total cost of your next trip.",
+  "name": "Unpackie | Trip Budget Calculator",
+  "short_name": "Unpackie",
+  "description": "Calculate. Discover. Travel. See the true total cost of your next trip and find destinations within your budget.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#faf7f2",
-  "theme_color": "#152238",
+  "theme_color": "#1E2D4A",
   "icons": [
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }

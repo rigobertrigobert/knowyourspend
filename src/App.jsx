@@ -63,9 +63,9 @@ export default function App() {
     <div className="app">
       <header className="header">
         <h1>
-          KnowYour<span>Spend</span>
+          Unpackie
         </h1>
-        <p>The true total cost of your next trip</p>
+        <p>Calculate. Discover. Travel.</p>
       </header>
 
       <main className="container">

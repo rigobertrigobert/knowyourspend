@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Left Spine Base (Navy Blue) -->
+  <path d="M160,120 L160,280 C160,335 205,380 260,380 L260,330 C232,330 210,308 210,280 L210,120 Z" fill="#1E2D4A" />
+  
+  <!-- Bottom Right Curve (Yellow/Gold) -->
+  <path d="M265,380 C320,380 365,335 365,280 L365,245 L315,245 L315,280 C315,308 293,330 265,330 Z" fill="#F2A53B" />
+  
+  <!-- Segment 1: Coral (Food) -->
+  <rect x="315" y="200" width="50" height="40" rx="4" fill="#E06D53" />
+  
+  <!-- Segment 2: Sage Green (Hotels) -->
+  <rect x="315" y="150" width="50" height="45" rx="4" fill="#7AA884" />
+  
+  <!-- Segment 3: Teal (Flights) -->
+  <rect x="315" y="100" width="50" height="45" rx="4" fill="#2C8C99" />
+</svg>
